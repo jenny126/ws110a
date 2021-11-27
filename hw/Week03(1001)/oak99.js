@@ -13,7 +13,7 @@ router.get("/", (context) => {
       <body>
       <h1>99 multiplication table web output</h1>
       ${table99()}
-      <h3><a href="https://github.com/jenny126/ws110a/tree/master/hw/Week02(09.24)">kmcs 110910516</a></h3>
+      <h3><a href="https://github.com/jenny126/ws110a/tree/master/hw/Week03(1001)">kmcs 110910516</a></h3>
   </body>
     </html>`;
   })
