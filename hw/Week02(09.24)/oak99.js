@@ -16,36 +16,47 @@ function table99(){
 const app=new Application();
 
 app.use((ctx) => {
-    ctx.response.body = `
+    ctx.response.body =`
     <html>
-    <style>
-    table{
-        width:500px;
-        border-collapse: collapse;
-        border: 1px solid rgb(255, 255, 255);
-        padding: 10px;
-        font-size: 1.5em;
-    }
-    th{
-        text-align:center;
-        background-color:black;
-        color:white;
-        border: 1px solid white;
-        padding:10px;
-        font-size: 1.5em;
-    }
-    td{
-        text-align: center;
-        background-color:rgb(255, 255, 255);
-        border:1px solid rgb(0, 0, 0);
-        padding:10px;
-        font-size: 1.5em;
-    }
-    </style>
-    <body>
-        ${table99()}
-    </body>
-    </html>
+      <style>
+      body{
+          font-size:1.5em;
+          background-color:rgb(124, 159, 255);
+      }
+      table{
+          margin-left:auto; 
+          margin-right:auto;
+          width:500px;
+          border-collapse: collapse;
+          border: 1px solid rgb(255, 255, 255);
+          padding: 10px;
+      }
+      th{
+          text-align:center;
+          background-color:black;
+          color:white;
+          border: 1px solid white;
+          padding:10px;
+      }
+      td{
+          text-align: center;
+          background-color:rgb(255, 255, 255);
+          border:1px solid rgb(0, 0, 0);
+          padding:10px;
+      }
+      h1{
+          text-align:center;
+      }
+      h3{
+          text-align:center;
+      }
+      </style>
+      <body>
+          <h1>99 multiplication table web output</h1>
+          ${table99()}
+          <h3><a href="https://github.com/jenny126/ws110a/tree/master/hw/Week02(09.24)">kmcs 110910516</a></h3>
+      </body>
+      </html>
     `
 });
 console.log('start at : http://127.0.0.1:8000')
