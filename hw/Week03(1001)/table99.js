@@ -11,4 +11,4 @@ export function table99(){
     return table.join('\n')+'</table>'
 }
 
-console.log(table99())
+//console.log(table99())
